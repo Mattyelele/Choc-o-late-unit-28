@@ -25,7 +25,7 @@ Choc 'o' late is a website I had to make for a college assignment.
 | popup asking for name  |
 | Welcome message with name |
 | Shopping cart |
-| Load products from a json file |
+| Load products from a javascript array |
 
 ## ✍️ Authors <a name = "authors"></a>
 
