@@ -1,0 +1,33 @@
+{
+    "products": [{
+        "id": "1",
+        "name": "Treacle Truffle",
+        "price": "£1.25",
+        "img": "./Images/choc1.jpg"
+    }, {
+        "id": "2",
+        "name": "Bournvlle",
+        "price": "£1.50",
+        "img": "./Images/choc2.jpg"
+    }, {
+        "id": "3",
+        "name": "Caramel Creme",
+        "price": "£1.25",
+        "img": "./Images/choc3.jpg"
+    }, {
+        "id": "4",
+        "name": "Strawberry Surpise",
+        "price": "£1.50",
+        "img": "./Images/choc4.jpg"
+    }, {
+        "id": "5",
+        "name": "Fudge Frenzy",
+        "price": "£1.25",
+        "img": "./Images/choc5.jpg"
+    }, {
+        "id": "6",
+        "name": "Lucuous Lemon",
+        "price": "£1.50",
+        "img": "./Images/choc6.jpg"
+    }]
+}

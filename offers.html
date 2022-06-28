@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Offers</title>
+        <link href="./style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function response() {
+                window.open("./response.html", "_self")
+                console.log("This is working")
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img class="logo" src="./Images/chocolate bar.png">
+                <a href="./index.html" class="headerT">Home</a>
+                <a href="./products.html" class="headerT">Products</a>
+                <a href="./shop.html" class="headerT">Shop</a>
+                <a class="HeaderTactive">Offers</a>
+                <a href="./contact.html" class="headerT">Contact</a>
+            </div>
+            <div class="main">
+                <h1 class="ChoclateT">TRY OUR OFFER OF THE WEEK</h1>
+                <h3 class="ChoclateT">(You'll be back for more!!)</h3>
+                <div class="Offer-bg">
+                    <img src="./Images/chocbox.png" height="150" width="150" style="margin-left: 25%;">
+                    <br>
+                    <a class="offer-text">Purchase any 12 chocolate and recive them gift wrapped in a specialitiy box with a free greeting card - Enjoy!</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="newsletter-bg">
+                    <h1 class="formheaders">Subscribe to our Newsletter</h1>
+                    <h3 class="formheaders">Recive latest offers/deals</h3>
+                    <form method="get" action="./response.html">
+                        <div class="forminput">
+                            <label for="name">Name:</label>
+                        <input class="width: 100%;" type="text" id="name">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email">
+                        <br>
+                        
+                        </div>
+                        
+                        <input type="checkbox">Newsletter (Monthly)</input>
+                        <input type="checkbox">Latest Offers (Weekly)</input>
+                        <input type="checkbox">Promotions (Monthly)</input>
+                        <input type="checkbox">New Products</input>
+                        <br>
+                        <button class="buttonform" type="submit" style="background-color: green; border: 0; width: fit-content;">Subscribe</button>
+                        <br>
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer">
+                    <p style="text-align: center;">Choc'o'late © 2022</p>
+                    <table>
+                        <tbody class="headerT">
+                            <tr>
+                                <td><a href="#home">Privacy</a></td>
+                                <td><a href="#home">Delivery</a></td>
+                                <td><a href="#home">FAQ</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#home">Blog</a></td>
+                                <td><a href="#home">FeedBack</a></td>
+                                <td><a href="#home">Cookies</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="socialmedia">
+                        <tbody class="headerT">
+                            <tr>
+                                <td><a href="#" class="fa fa-twitter"></a></td>
+                                <td><a href="#" class="fa fa-instagram"></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="fa fa-facebook"></a></td>
+                                <td><a href="#" class="fa fa-pinterest"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

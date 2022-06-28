@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+        <link href="./style.css" rel="stylesheet">
+        <script src="./js/welcome.js"></script>
+        <script src="./js/cart.js"></script>
+        <script src="./js/products.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body onload="popup()">
+        <div class="container">
+            <div class="header">
+                <img class="logo" src="./Images/chocolate bar.png">
+                <a href="./index.html" class="headerT">Home</a>
+                <a href="./products.html" class="headerT">Products</a>
+                <a class="HeaderTactive">Shop</a>
+                <a href="./offers.html" class="headerT">Offers</a>
+                <a href="./contact.html" class="headerT">Contact</a>
+            </div>
+            <div class="main">
+                <h1 class="ChoclateT">Shop Until You Drop!</h1>
+
+                <!-- (A) CART -->
+    <div id="cart-wrap">
+        <!-- (A1) PRODUCTS LIST -->
+        <div id="cart-products"></div>
+  
+        <!-- (A2) CURRENT CART ITEMS -->
+        <div id="cart-items"></div>
+      </div>
+  
+      <!-- (B) TEMPLATES -->
+      <!-- (B1) PRODUCT CELL -->
+      <template id="template-product">
+      <div class="p-item">
+        <img class="p-img"/>
+        <div class="p-name"></div>
+        <div class="p-desc"></div>
+        <div class="p-price"></div>
+        <button class="cart p-add">Add To Cart</button>
+      </div>
+      </template>
+  
+      <!-- (B2) CART ITEMS -->
+      <template id="template-cart">
+      <div class="c-item">
+        <div class="c-name"></div>
+        <button class="c-del cart">X</button>
+        <input class="c-qty" type="number" min="0"/>
+      </div>
+      </template>
+      <template id="template-cart-checkout">
+        <button class="c-empty cart" onclick="cart.nuke()">Empty</button>
+        <button class="c-checkout cart" onclick="cart.checkout()">Checkout</button>
+      </template>
+            </div>
+            <div class="footer">
+                <div class="footer">
+                    <p style="text-align: center;">Choc'o'late © 2022</p>
+                    <table>
+                        <tbody class="headerT">
+                            <tr>
+                                <td><a href="#home">Privacy</a></td>
+                                <td><a href="#home">Delivery</a></td>
+                                <td><a href="#home">FAQ</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#home">Blog</a></td>
+                                <td><a href="#home">FeedBack</a></td>
+                                <td><a href="#home">Cookies</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="socialmedia">
+                        <tbody class="headerT">
+                            <tr>
+                                <td><a href="#" class="fa fa-twitter"></a></td>
+                                <td><a href="#" class="fa fa-instagram"></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="fa fa-facebook"></a></td>
+                                <td><a href="#" class="fa fa-pinterest"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
